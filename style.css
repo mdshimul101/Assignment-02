@@ -345,10 +345,10 @@ media query for
     }
 
     .blogs {
-        margin-left: 15px;
+        margin-left: 0;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 0;
+
     }
 }
 

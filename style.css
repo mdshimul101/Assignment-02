@@ -528,7 +528,7 @@ hr {
 .flag {
     display: flex;
     padding: 25px 20px 13px;
-    flex-wrap: nowrap;
+
 }
 
 .vs {
@@ -540,9 +540,6 @@ hr {
     color: #161616;
 }
 
-.matches .match img {
-    width: 100%;
-}
 
 .match-info {
     margin: 10px;
@@ -633,6 +630,10 @@ Upcoming Media Quary
     .matches {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .match .flag img {
+        width: 80%;
     }
 
     .match-info h5 {

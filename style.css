@@ -521,13 +521,14 @@ hr {
     border-radius: 10px;
 }
 
-.match img {
+.match .flag img {
     width: 100%;
 }
 
 .flag {
     display: flex;
     padding: 25px 20px 13px;
+    flex-wrap: nowrap;
 }
 
 .vs {

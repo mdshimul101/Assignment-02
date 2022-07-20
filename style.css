@@ -528,6 +528,7 @@ hr {
 .flag {
     display: flex;
     padding: 25px 20px 13px;
+    justify-content: center;
 
 }
 
@@ -633,7 +634,7 @@ Upcoming Media Quary
     }
 
     .match .flag img {
-        width: 80%;
+        width: 100%;
     }
 
     .match-info h5 {

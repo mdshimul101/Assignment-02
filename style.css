@@ -345,6 +345,7 @@ media query for
     }
 
     .blogs {
+        margin-left: 15px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-left: 0;
@@ -516,6 +517,7 @@ hr {
     grid-gap: 15px 10px;
 }
 
+
 .match {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
@@ -589,10 +591,12 @@ Upcoming Media Quary
     }
 
     .matches {
+        margin-left: 0;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px 0;
     }
+
 
     .flag {
         display: flex;
@@ -636,6 +640,7 @@ Upcoming Media Quary
     }
 
     .matches {
+
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }

@@ -594,6 +594,13 @@ Upcoming Media Quary
         grid-gap: 30px 0;
     }
 
+    .flag {
+        display: flex;
+        padding: 25px 20px 13px;
+        justify-content: center;
+
+    }
+
     .match-info h5 {
         font-weight: 550;
         font-size: 16px;
@@ -631,6 +638,13 @@ Upcoming Media Quary
     .matches {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flag {
+        display: flex;
+        padding: 25px 20px 13px;
+        justify-content: center;
+
     }
 
     .match .flag img {
